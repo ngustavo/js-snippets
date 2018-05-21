@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Web Bin</title>
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="title">Web Playground</div>
+            <div class="nav">
+                <div class="nav__btn nav__btn--left nav__btn--active" id="htmlBtn">HTML</div>
+                <div class="nav__btn" id="cssBtn">CSS</div>
+                <div class="nav__btn" id="jsBtn">JS</div>
+                <div class="nav__btn nav__btn--right nav__btn--active" id="outBtn">OUT</div>
+            </div>
+        </div>
+        <div id="main">
+            <textarea class="tab" id="htmlTab" placeholder="HTML"></textarea>
+            <textarea class="tab hidden" id="cssTab" placeholder="CSS"></textarea>
+            <textarea class="tab hidden" id="jsTab" placeholder="JS"></textarea>
+            <div class="tab" id="outTab"><iframe id="output"></iframe></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="/main.js"></script>
+    </body>
+</html>
