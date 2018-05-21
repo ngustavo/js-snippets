@@ -6,6 +6,7 @@
 }
 body {
     font-family: Helvetica, sans-serif;
+    height: 100vh;
 }
 #header {
     width: calc(100% - 10px);
@@ -51,9 +52,10 @@ body {
 #main {
     display: flex;
     font-size: 14px;
+    height: calc(100% - 57px);
 }
 .tab {
-    height: calc(100% - 57px);
+    height: 100%;
     resize: none;
     flex: 1;
     display: flex;
