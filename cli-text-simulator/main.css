@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+p {
+    font: bold 1.2em monospace;
+}
+#r {
+    color: orange;
+}
+#c {
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    from, 49.9% { opacity: 0; }
+    50%, to { opacity: 1; }
+}
