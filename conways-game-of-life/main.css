@@ -1,0 +1,11 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(30, 8px);
+    grid-template-rows: repeat(30, 8px);
+    grid-gap: 1px;
+    background-color: #97d029;
+    width: 270px;
+}
+h2 {
+    margin: auto;
+}
